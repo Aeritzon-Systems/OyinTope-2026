@@ -10,18 +10,53 @@ export const weddingConfig = {
     groomSlots: 25,
     brideSlots: 25,
     groomFormUrl: "https://forms.gle/9ECqn9MsisgHCc2c6",
-    brideFormUrl: "PASTE BRIDE FORM LINK",
+    brideFormUrl: "https://forms.gle/sbVSKX2VQHSD7PG39",
   },
 
-  payment: {
+  mensPayment: {
     accountName: "Akinrodoye Temilola",
     bankName: "Access Bank",
     accountNumber: "0770106050",
   },
 
-  attireOptions: [
-    { name: "5 trousers length for Agbada", price: "₦80,000" },
-    { name: "3 trousers length (normal)", price: "₦50,000" },
-    { name: "Kaftan", price: "TBD" },
-  ]
+  ladiesPayment: {
+    accountName: "Oluwafunmilayo Dorcas Sorinolu (Octavia Securities Limited - fun)",
+    bankName: "Moniepoint",
+    accountNumber: "6883239815",
+  },
+
+  attire: {
+    men: {
+      asoEbi: [
+        { name: "5 trousers length for Agbada", price: "₦80,000" },
+        { name: "3 trousers length (Kaftan / Senator)", price: "₦50,000" },
+      ],
+    },
+
+    ladies: {
+      asoEbi: [
+        { name: "2 yards of fabric + gele", price: "₦60,000" },
+        { name: "3 yards of fabric + gele", price: "₦80,000" },
+        { name: "4 yards of fabric + gele", price: "₦100,000" },
+      ],
+
+      bridalTrain: [
+        {
+          name:
+            "2 yards of fabric + gele + full bridal train package (everything in the previous list)",
+          price: "₦140,000",
+        },
+        {
+          name:
+            "3 yards of fabric + gele + full bridal train package (everything in the previous list)",
+          price: "₦160,000",
+        },
+        {
+          name:
+            "4 yards of fabric + gele + full bridal train package (everything in the previous list)",
+          price: "₦180,000",
+        },
+      ],
+    },
+  },
 };

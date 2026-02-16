@@ -50,6 +50,17 @@ export default function Home() {
           </p>
         </header>
 
+        <Card title="Attires">
+          <ul className="list-disc pl-5 space-y-2">
+            <li>
+              Men: Off-white Cashmere, Lilac cap.
+            </li>
+            <li>
+              Ladies: Beaded lilac lace, Lilac Sego Gele
+            </li>
+          </ul>
+        </Card>
+
         <Card title="Important Notes">
           <ul className="list-disc pl-5 space-y-2">
             <li>
