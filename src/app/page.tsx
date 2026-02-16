@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex flex-col gap-6">
         <header className="rounded-3xl bg-white border border-zinc-200 p-8 shadow-sm">
           <p className="text-xs uppercase tracking-widest text-zinc-500">
-            Traditional Wedding
+            It's Wedding O'clock!
           </p>
 
           <h1 className="mt-2 text 3xl font-bold tracking-tight">{c.couple}</h1>
