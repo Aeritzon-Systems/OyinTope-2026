@@ -20,9 +20,9 @@ export const weddingConfig = {
   },
 
   ladiesPayment: {
-    accountName: "Oluwafunmilayo Dorcas Sorinolu (Octavia Securities Limited - fun)",
-    bankName: "Moniepoint",
-    accountNumber: "6883239815",
+    accountName: "Sorinolu Oluwafunmilayo",
+    bankName: "Palmpay",
+    accountNumber: "8127302912",
   },
 
   attire: {
