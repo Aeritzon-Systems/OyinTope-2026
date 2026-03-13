@@ -138,7 +138,7 @@ export default function AccessCardPage() {
                 disabled={!canGenerate}
                 className={`rounded-xl px-4 py-2 text-sm font-medium transition ${
                   canGenerate
-                    ? "bg-primary text-white hover:bg-primary-dark active:bg-primary-dark"
+                    ? "bg-zinc-900 text-white hover:bg-zinc-700 active:bg-zinc-700"
                     : "bg-zinc-200 text-zinc-500 cursor-not-allowed"
                 }`}
               >
